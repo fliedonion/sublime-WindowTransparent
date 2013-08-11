@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "Sublime Finder",
+            "description": "Set Window Opacity. ",
+            "author": "Takahiro Kitahara",
+            "homepage": "https://github.com/fliedonion/sublime-WindowTransparent",
+            "last_modified": "2013-08-12 02:09:00",
+            "platforms": {
+                "osx": [
+                    {
+                        "version": "1.0.0",
+                        "url": "https://nodeload.github.com/fliedonion/sublime-WindowTransparent/zipball/master"
+                    }
+                ]
+            }
+        }
+    ]
+}

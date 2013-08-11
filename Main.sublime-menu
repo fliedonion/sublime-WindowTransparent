@@ -1,0 +1,21 @@
+[
+    {
+        "caption": "View",
+        "mnemonic": "V",
+        "id": "view",
+        "children":
+        [
+            {
+                "caption": "Transparent",
+                "children":
+                [
+                    { "command": "window_transparent", "args": {"val": "255"} , "caption": "Opaque"},
+                    { "command": "window_transparent", "args": {"val": "215"} , "caption": "Translucent"},
+                    { "command": "window_transparent", "args": {"opt": "inc"} , "caption": "less opacity"},
+                    { "command": "window_transparent", "args": {"opt": "dec"} , "caption": "more opacity"}
+                ]
+            }
+
+        ]
+    }
+]

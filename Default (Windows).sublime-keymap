@@ -1,0 +1,6 @@
+[
+{ "keys": ["ctrl+alt+0"], "command": "window_transparent", "args": {"val": "255"} },
+{ "keys": ["ctrl+alt+1"], "command": "window_transparent", "args": {"val": "215"} },
+{ "keys": ["ctrl+alt+pageup"], "command": "window_transparent", "args": {"opt": "inc"} },
+{ "keys": ["ctrl+alt+pagedown"], "command": "window_transparent", "args": {"opt": "dec"} }
+]
