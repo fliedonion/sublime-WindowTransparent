@@ -122,7 +122,7 @@ class WindowTransparentListener(sublime_plugin.EventListener):
     def on_new(self, view):
         if os.name == 'nt':
             self.view = view
-            sublime.set_timeout(self.on_post_new, 200)
+            sublime.set_timeout(self.on_timeout, 100)
 
     def on_timeout(self):
         view = self.view
